@@ -1,0 +1,335 @@
+@media (max-width:1200px) {
+    .header__contain{
+        width: calc(100% - 40px);
+        height: 100px;
+    }
+
+    .lap__none,
+    .content__bodynav.grid__row-wrap{
+        display: none;
+    }
+    .header__contain--icon,
+    .header__contain--navbar{
+        padding: 0;
+    }
+    .nav--contain-lr,
+    .content__bodynav.grid__row-wrap.content__lr{
+        display: flex;
+    }
+    .width__content{
+        width: calc( 100% - 48px);
+    }
+    .grid--11-12{
+        width: calc( 100% - 60px);
+    }
+    .column--1{
+        width: 100%;
+    }
+    .form__wrap input{
+        width: 500px;
+    }
+    .c1--12{
+        width: 8.33334%;
+    }
+    .c2--12{
+        width: 16.66667%;
+    }
+    .c3--12{
+        width: 25%;
+    }
+    .c8--12{
+        width: 66.66667%;
+    }
+    .c9--12{
+        width: 75%;
+    }
+    .option--link.option-item--link{
+        padding-right: 14px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .header__contain{
+        width: calc(100% - 40px);
+        height: 80px;
+    }
+    .logo--tablet{
+        height: 44px;
+    }
+    .brand--tablet{
+        height: 23px;
+    }
+    .logo__icon{
+        margin-right: 40px;
+    }
+    .slider__title.headline__title{
+        width: 50%;
+    }
+    .slider__img img{
+        height: 400px;
+    }
+    .content__footernav--title-wrap{
+        padding-right: 18px;
+        margin: 0;
+    }
+    .content__footernav--text{
+        font-size: 1.25rem;
+    }
+    .width__100{
+        width: 100%;
+    }
+    .no-flex{
+        display: block;
+    }
+    .credit__option--contain{
+        margin-bottom: 25px;
+    }
+    .credit__option--item{
+        margin-bottom: 10px;
+    }
+    .credit__option--list{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .tablet__none{
+        display: none;
+    }
+    .footer__about--title-tablet{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #333;
+        margin-bottom: 30px;
+    }
+    .footer__about--contain-tablet{
+        margin-bottom: 30px;
+    }
+    .footer__item--link{
+        padding: 10px;
+        display: block;
+        width: 50%;
+    }
+}
+
+@media (max-width:767px){
+    .width__100{
+        width: 100%;
+    }
+    .width__50{
+        width: 50%;
+    }
+    .form__wrap input{
+        width: 100%;
+    }
+    .logo--tablet{
+        height: 44px;
+    }
+    .brand--tablet{
+        height: 23px;
+    }
+    .logo__icon{
+        margin-right: 40px;
+    }
+    .P_none{
+        display: none;
+    }
+    .slider__img img{
+        height: 100%;
+    }
+    .header__contain{
+        display: flex;
+    }
+    .header__contain--navbar{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+    .F-none{
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+    }
+    .F-none i{
+        right: 80px;
+    }
+    .slider__content,
+    .slider__stats{
+        position: relative;
+    }
+    .slider__stats{
+        left: 0;
+        bottom: 0;
+        margin: 40px 0;
+        margin-left: 40px;
+    }
+    .slider__content{
+        width: 100%;
+        left: 0;
+    }
+    .slider__title.headline__title{
+        font-size: 2rem;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .btn.slider__btn{
+        margin-left: 40px;
+    }
+    .swiper-button-next.btn-next,
+    .swiper-button-prev.btn-prev{
+        top: 16%;
+    }
+    .swiper-button-next.btn-next{
+        right: 20px;
+    }
+    .swiper-button-prev.btn-prev{
+        left: 20px;
+    }
+    .scrollbar{
+        bottom: -240px;
+        right: unset;
+        top: unset;
+        width: 100%;
+        background-color: #000;
+    }
+    .grid__row-P{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        margin: 0 -1px;
+    }
+    .column__4-P{
+        width: 25%;
+
+    }
+    .scroll__item.column__4-P{
+        height: 60px;
+        padding: 0 1px;
+    }
+    .btn.scroll__item-btn{
+        flex-flow: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .btn.scroll__item-btn span{
+        font-size: 1.2rem;
+    }
+    .column__4-P:last-child{
+        height: max-content;
+    }
+    .btn.scroll__item-btn.scroll__share{
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        transform: translateY(0);
+        transition: transform linear 0.4s;
+    }
+    .btn.scroll__item-btn.scroll__share span{
+        display: flex;
+        height: 60px;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .btn.scroll__item-btn{
+        transition: unset;
+        transform: unset;
+        padding-left: 0;
+    }
+    .btn.scroll__item-btn.scroll__share:hover{
+        transform: translateY(-240px);
+    }
+    .btn.introduce__btn{
+        width: 100%;
+    }
+    .column__2-P{
+        width: 50%;
+        padding: 2px 4px;
+    }
+    .grid__row{
+        flex-wrap: wrap;
+    }
+    .maincontent.grid{
+        margin-top: 80px;
+    }
+    .column__1-P{
+        width: 100%;
+    }
+    .content__footernav--title{
+        flex-flow: column;
+        justify-content: space-around;
+        height: 100px;
+        margin-top: 100px;
+    }
+    .content__footernav--text{
+        font-size: 1.5rem;
+    }
+    .content__footernav--content{
+        font-size: 1.4rem;
+    }
+    .footer__about--title-tablet{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #333;
+        margin-bottom: 30px;
+    }
+    .footer__item--link{
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+    .inform__icon.icon__hover{
+        margin: 0;
+    }
+    .footer__inform--icon{
+        margin-bottom: 40px;
+    }
+    .footer__inform--icon a{
+        padding: 20px;
+    }
+    .brand__img{
+        margin: 30px 0px;
+    }
+    .inform--brand-img:first-child a .brand__img{
+        margin-top: 50px;
+    }
+    .inform--brand-img:last-child a .brand__img{
+        margin-bottom: 50px;
+    }
+    .footer{
+        margin-bottom: 70px;
+    }
+    .credit__option--switch{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .credit__option--switch a{
+        padding: 15px;
+    }
+    .credit__option--list{
+        flex-wrap: wrap;
+        justify-content: unset;
+        margin-bottom: 20px;
+    }
+    .option--link.option-item--link{
+        display: inline-block;
+        padding-top:6px;
+        padding-bottom: 6px;
+    }
+    .option--link.option-item--link:last-child{
+        padding: 10px;
+        padding-top:6px;
+        padding-bottom: 6px;
+    }
+    .option--link{
+        padding: 10px;
+    }
+    .content__footernav--title-wrap{
+        align-items: center;
+    }
+    .btn--text span, .btn--text i{
+        font-size: 1.2rem;
+    }
+    .checkbox__text,
+    .checkbox__link span{
+        font-size: 1.2rem;
+    }
